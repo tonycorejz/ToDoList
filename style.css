@@ -1,0 +1,75 @@
+body {
+    background-color: #9f988d;
+}
+
+.field {
+    display: flex;
+    padding: 10px;
+    width: 25%;
+    margin-left: 37.5%;
+    color: #ffffff;
+    font-size: 1.3em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid #3d56aa;
+    background-color: #d4d37f;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+button.btn {
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.65em;
+    color: #fff;
+    outline: none;
+}
+
+.btn.light {
+    background-color: #4eafc9;
+    border: 2px solid #2a89a2;
+}
+
+.btn.red {
+    background-color: #dda66d;
+    border: 2px solid #b6821a;
+}
+
+.btn.light:hover {
+    background-color: #2a89a2;
+    border-color: #1d6f85;
+}
+.btn.compl{
+    background-color: #6ba261;
+    border: 2px solid #3489a2;
+}
+.btn.compl:hover{
+    background-color: #56814c;
+    border-color: #2a89a2;
+}
+.btn.red:hover {
+    background-color: #b6821a;
+    border-color: #946912;
+}
+
+.boxProsroch{
+    border: 2px solid #aaa719;
+    background-color: red;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+}
+.DateTime{
+
+
+}
